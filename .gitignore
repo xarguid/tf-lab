@@ -1,0 +1,21 @@
+# Lokaalsed .terraform kataloogid
+**/.terraform/*
+
+# State-failid (sisaldavad tundlikku infot)
+*.tfstate
+*.tfstate.*
+
+# Crash-logid ja plaanifailid
+crash.log
+crash.*.log
+*.tfplan
+
+# Muutujate failid, mis võivad sisaldada saladusi
+*.tfvars
+*.tfvars.json
+
+# Lokaalsed override-failid
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
